@@ -1,16 +1,30 @@
-body {
-    margin: left;
-    width: 80%;
-    text-align: left;
-    list-style-position: inside;
+html {
+    box-sizing: border-box;
+    max-width: 70ch;
+    margin: auto;
+    font-size: 1.25em;
+    color: #333;
+    line-height: 1.4;
 }
 
-table {
-    text-align: center;
+* {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
 }
 
 img {
-    display: block;
-    margin: left;
-    max-width: 50%;
+    max-width: 100%;
+    height: auto;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+    
